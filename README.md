@@ -1,19 +1,19 @@
 ### spring-boot-cloud-module
-spring-boot+spring-cloud+maven-module ä¸€ä¸ª mavenå¤šæ¨¡å—çš„å¾®æœåŠ¡æ¶æ„æ¨¡ç‰ˆã€‚
+spring-boot+spring-cloud+maven-module Ò»¸ö maven¶àÄ£¿éµÄÎ¢·şÎñ¼Ü¹¹Ä£°æ¡£
 
-æ–°æ‰‹ä¸Šè·¯çš„ç»ä½³æ¨¡ç‰ˆï¼Œåªæœ‰å¿…è¦çš„é…ç½®æ–‡ä»¶å’Œæ ¸å¿ƒjaråŒ…ï¼Œæ²¡æœ‰å¤šä½™çš„å…¶ä»–å¢é‡é…ç½®ï¼Œæ‰€æœ‰çš„é…ç½®å’Œæ³¨è§£éƒ½æœ‰åšè§£é‡Šçš„æ³¨è§£æè¿°ï¼Œæ–¹ä¾¿æ–°æ‰‹ä¸€çœ¼å°±æ‡‚ï¼Œä¸‹è½½ååŸºæœ¬ä¸Šå¯ä»¥ç›´æ¥åŸºäºdemoå¼€å‘è‡ªå·±çš„é¡¹ç›®
+ĞÂÊÖÉÏÂ·µÄ¾ø¼ÑÄ£°æ£¬Ö»ÓĞ±ØÒªµÄÅäÖÃÎÄ¼şºÍºËĞÄjar°ü£¬Ã»ÓĞ¶àÓàµÄÆäËûÔöÁ¿ÅäÖÃ£¬ËùÓĞµÄÅäÖÃºÍ×¢½â¶¼ÓĞ×ö½âÊÍµÄ×¢½âÃèÊö£¬·½±ãĞÂÊÖÒ»ÑÛ¾Í¶®£¬ÏÂÔØºó»ù±¾ÉÏ¿ÉÒÔÖ±½Ó»ùÓÚdemo¿ª·¢×Ô¼ºµÄÏîÄ¿
 
 
-###### 1ï¼ŒæŒ‰ç…§ä¸šåŠ¡åˆ’åˆ†å¤šmavenæ¨¡å—ï¼š
-![åœ¨è¿™é‡Œæ’å…¥å›¾ç‰‡æè¿°](https://img-blog.csdnimg.cn/20190629160747114.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA2MzMyNjY=,size_16,color_FFFFFF,t_70)
-###### 2ï¼Œspring-bootè„šæ‰‹æ¶å¿«é€Ÿç”Ÿæˆé¡¹ç›®åŠ ä¸Šä¸ªjaråŒ…çš„ä½œç”¨æè¿°ï¼š
-![åœ¨è¿™é‡Œæ’å…¥å›¾ç‰‡æè¿°](https://img-blog.csdnimg.cn/20190629160930806.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA2MzMyNjY=,size_16,color_FFFFFF,t_70)
-![åœ¨è¿™é‡Œæ’å…¥å›¾ç‰‡æè¿°](https://img-blog.csdnimg.cn/20190629160954485.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA2MzMyNjY=,size_16,color_FFFFFF,t_70)
-###### 3ï¼Œspring-boot+spring-cloudå„ä¸ªæ³¨è§£çš„ä½œç”¨ï¼š
-![åœ¨è¿™é‡Œæ’å…¥å›¾ç‰‡æè¿°](https://img-blog.csdnimg.cn/20190629161026225.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA2MzMyNjY=,size_16,color_FFFFFF,t_70)
-###### 4ï¼Œé…ç½®æ–‡ä»¶ä¸ªå±æ€§ä½œç”¨æè¿°ï¼š
-![åœ¨è¿™é‡Œæ’å…¥å›¾ç‰‡æè¿°](https://img-blog.csdnimg.cn/20190629161132144.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA2MzMyNjY=,size_16,color_FFFFFF,t_70)
-###### 5ï¼Œé»˜è®¤æä¾›ä¸¤ä¸ªæ¨¡å—æœåŠ¡ç”¨äºæµ‹è¯•ï¼š
-![åœ¨è¿™é‡Œæ’å…¥å›¾ç‰‡æè¿°](https://img-blog.csdnimg.cn/20190629161248281.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA2MzMyNjY=,size_16,color_FFFFFF,t_70)
+###### 1£¬°´ÕÕÒµÎñ»®·Ö¶àmavenÄ£¿é£º
+![ÔÚÕâÀï²åÈëÍ¼Æ¬ÃèÊö](https://img-blog.csdnimg.cn/20190629160747114.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA2MzMyNjY=,size_16,color_FFFFFF,t_70)
+###### 2£¬spring-boot½ÅÊÖ¼Ü¿ìËÙÉú³ÉÏîÄ¿¼ÓÉÏ¸öjar°üµÄ×÷ÓÃÃèÊö£º
+![ÔÚÕâÀï²åÈëÍ¼Æ¬ÃèÊö](https://img-blog.csdnimg.cn/20190629160930806.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA2MzMyNjY=,size_16,color_FFFFFF,t_70)
+![ÔÚÕâÀï²åÈëÍ¼Æ¬ÃèÊö](https://img-blog.csdnimg.cn/20190629160954485.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA2MzMyNjY=,size_16,color_FFFFFF,t_70)
+###### 3£¬spring-boot+spring-cloud¸÷¸ö×¢½âµÄ×÷ÓÃ£º
+![ÔÚÕâÀï²åÈëÍ¼Æ¬ÃèÊö](https://img-blog.csdnimg.cn/20190629161026225.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA2MzMyNjY=,size_16,color_FFFFFF,t_70)
+###### 4£¬ÅäÖÃÎÄ¼ş¸öÊôĞÔ×÷ÓÃÃèÊö£º
+![ÔÚÕâÀï²åÈëÍ¼Æ¬ÃèÊö](https://img-blog.csdnimg.cn/20190629161132144.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA2MzMyNjY=,size_16,color_FFFFFF,t_70)
+###### 5£¬Ä¬ÈÏÌá¹©Á½¸öÄ£¿é·şÎñÓÃÓÚ²âÊÔ£º
+![ÔÚÕâÀï²åÈëÍ¼Æ¬ÃèÊö](https://img-blog.csdnimg.cn/20190629161248281.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3UwMTA2MzMyNjY=,size_16,color_FFFFFF,t_70)
 
-é¡¹ç›®åœ°å€ï¼šhttps://github.com/BothEyes1993/spring-boot-cloud-module
+ÏîÄ¿µØÖ·£ºhttps://github.com/BothEyes1993/spring-boot-cloud-module
